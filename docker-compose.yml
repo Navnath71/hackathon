@@ -14,7 +14,7 @@ services:
       - "3306:3306"
 
   web:
-    build: .
+    image: hackathon-flask-app:latest
     ports:
       - "5000:5000"
     depends_on:
